@@ -3,7 +3,7 @@
 ## Perintah dasar git
 
 - Mengecek file
- git status
+ 'git status'
  
 - Memindahkan 1 file ke staging index
  git add <nama_file>
