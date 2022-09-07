@@ -1,9 +1,9 @@
 
-### git *dasar* ##:writing_hand:
+### git *dasar* :writing_hand:
 
 | **Command** | **Description** |
 | --- | --- |
-| `git init` | Membuat repository |
+| `git init` | Membuat repository  |
 | `git status` | Daftar semua file baru atau yang dimodifikasi |
 | `git add <nama_file>` | Memindahkan 1 file ke staging index |
 | `git add .` | Memindahkan beberapa file ke staging index |
@@ -27,7 +27,7 @@
 | `git blame <nama_file>` | Mencari tahu siapa yang menambahkan perubahan pada file tersebut dan juga mengetahui commitnya |
 
 
-### git *branch* ##:writing_hand:
+### git *branch* :writing_hand:
 
 | **Command** | **Description** |
 | --- | --- |
@@ -52,7 +52,7 @@
 | `git stash clear` | Menghapus semua stash |
 
 
-### git *remote* ##:writing_hand:
+### git *remote* :writing_hand:
 
 | **Command** | **Description** |
 | --- | --- |
@@ -67,5 +67,12 @@
 | `git clone <url_remote_repository>` | Download project di remote repository ke local |
 | `git branch -r` | Melihat semua daftar branch yang ada remote repository |
 | `git branch -a` | Melihat semua daftar branch yang ada remote repository dan local |
-| `git ` |  |
-
+| `git checkout -b <local_branch> <remote_name>/<remote_branch>` | Membuat branch dari remote branch |
+| `git fetch <remote_name>` | Mendapatkan perubahan terakhir dari remote repository dan tidak mengubah isi local git |
+| `git fetch <remote_name> <remote_branch>` | Melakukan fetch untuk branch tertentu di remote |
+| `git pull <remote_name> <remote_name_branch>` | Mendapatkan perubahan terakhir dari remote repository dan disimpan di local repository |
+| `git push <remote_name> <tagName>` | Mengirim tag ke remote repository |
+| `git push <remote_name> --tags` | Mengirim semua tag ke remote repository |
+| `git fetch <remote_name> <tagName>` | Mengambil tag |
+| `git fetch <name_remote>` | Mengambil semua tag |
+| `git push --delete <remote_name> <tagName>` | Menghapus tag |
