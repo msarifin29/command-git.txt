@@ -1,6 +1,6 @@
 ## command-git.txt
 
-#### Perintah dasar git  
+#### <details><summary>Perintah dasar git<summary><detail>
 - Mengecek file
  `git status`
  
