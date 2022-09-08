@@ -76,3 +76,4 @@
 | `git fetch <remote_name> <tagName>` | Mengambil tag |
 | `git fetch <name_remote>` | Mengambil semua tag |
 | `git push --delete <remote_name> <tagName>` | Menghapus tag |
+| `git merge origin/main` | Merge remote repository ke local branch |
